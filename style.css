@@ -1,0 +1,138 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(207, 207, 207);
+    }
+
+#left_head {
+    font-size: large;
+    font-weight: bold;
+    border: 1px red solid;
+    display:flex;
+}
+
+.right_head {
+    display: flex;
+    font-size: small;
+    border: 1px black solid;
+    justify-content: flex-end;
+}
+
+a {
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+body {
+    display: inline-block;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+.pt1 {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    background-color: rgb(59, 59, 192);
+    justify-content: center;
+    height: 100vh;
+}
+
+.imgbox {
+    display:flex;
+    width: 50%;
+    padding: 100px;
+    justify-content: center;
+    background-color: rgb(207, 57, 57);
+}
+
+.left_box {
+    display:flex;
+    width: 50%;
+}
+
+.right_box {
+    display: flex;
+    width: 50%;
+}
+
+.pt2 {
+    text-align: center;
+    background: white;
+}
+
+#title2 {
+    font-size: large;
+    font-weight: bold;
+    margin: 100px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    max-width: 200px;
+    margin-left: 25%;
+    border-radius: 20px;
+    border: 2px blue solid;
+}
+
+.boxtxt {
+    text-align: center;
+    width: 200px
+}
+
+.pt3 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #eee;
+    padding: 1em;
+}
+
+.pt3 figcaption,
+.pt3 blockquote {
+    margin: 1em;
+}
+
+.cat {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px;
+    padding: 2em;
+    background:rgb(49, 49, 248);
+    border-radius: 10px;
+}
+
+.catleft {
+    width: 80%;
+    margin:auto
+}
+
+.catright {
+    border-radius: 10px;
+    width:30%
+}
+
+.footer {
+    background-color: grey;
+    text-align: center;
+}
